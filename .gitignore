@@ -39,3 +39,6 @@ yarn-error.*
 
 app-example
 node_modules
+
+
+.vscode/

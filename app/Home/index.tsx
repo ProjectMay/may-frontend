@@ -24,18 +24,27 @@ export default function Index() {
       <View className="flex-1 flex-col justify-center">
         <View>
           <View className="flex flex-row justify-center mt-16 mx-4">
-            <Text className="text-3xl" style={{ color: Colors.light.text }}>
-              <Text>Get instant nutrition facts 🔎</Text>
+            <Text
+              className="text-3xl font-light"
+              style={{ color: Colors.light.text }}
+            >
+              <Text>Get instant nutrition facts.</Text>
             </Text>
           </View>
           <View className="flex flex-row justify-center mx-4">
-            <Text className="text-3xl " style={{ color: Colors.light.text }}>
-              <Text>Explore what's in your food 🧐</Text>
+            <Text
+              className="text-3xl font-medium"
+              style={{ color: Colors.light.text }}
+            >
+              <Text>Explore what&apos;s in your food.</Text>
             </Text>
           </View>
           <View className="flex flex-row justify-center mx-4">
-            <Text className="text-3xl " style={{ color: Colors.light.text }}>
-              <Text>Transform your eating habits 💪🏼</Text>
+            <Text
+              className="text-3xl font-bold"
+              style={{ color: Colors.light.text }}
+            >
+              <Text>Transform your eating habits.</Text>
             </Text>
           </View>
         </View>
