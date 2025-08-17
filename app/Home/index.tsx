@@ -3,7 +3,6 @@ import { Text, View } from 'react-native';
 import SmartButton from '@/components/smartbutton/SmartButton';
 import { Colors } from '@/constants/Colors';
 import { useRouter } from 'expo-router';
-import LottieView from 'lottie-react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function Index() {
@@ -37,12 +36,12 @@ export default function Index() {
                     </View>
                 </View>
                 <View className="flex flex-row justify-center">
-                    <LottieView
+                    {/* <LottieView
                         autoPlay
                         loop={false}
                         style={{ width: 450, height: 460 }}
                         source={require('../../assets/pantryapp.json')}
-                    />
+                    /> */}
                 </View>
                 <View className="flex flex-col items-center">
                     <SmartButton
